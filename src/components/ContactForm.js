@@ -4,30 +4,30 @@ export default function ContactForm() {
   return (
     <div style={{ margin: '0 auto', maxWidth: '700px' }}>
       <form name="contact" method="POST" data-netlify="true">
-        <FormElement>
+        <Field>
           Your Name: <input type="text" name="name" />
-        </FormElement>
-        <FormElement>
+        </Field>
+        <Field>
           Your Email: <input type="email" name="email" />
-        </FormElement>
-        <FormElement>
+        </Field>
+        <Field>
           Your Phone: <input type="text" name="phone" />
-        </FormElement>
-        <FormElement>
+        </Field>
+        <Field>
           Message: <textarea name="message"></textarea>
-        </FormElement>
-        <FormElement>
+        </Field>
+        <Field>
           <button type="submit">Contact Me</button>
-        </FormElement>
+        </Field>
       </form>
     </div>
   );
 }
 
-function FormElement(props) {
+function Field({ children }) {
   return (
     <p>
-      <label>{props.children}</label>
+      <label>{children}</label>
     </p>
   );
 }
