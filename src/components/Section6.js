@@ -1,4 +1,5 @@
 import React from 'react';
+import ContactForm from './ContactForm';
 
 export default function Section6() {
   return (
@@ -22,22 +23,7 @@ export default function Section6() {
         </header>
         <p>I'm glad to help arrange and package for shipping and pickup</p>
         <h2>Ready to take the next step?</h2>
-        <ul className="actions uniform">
-          <li>
-            <a href="mailto:jason.sooter@gmail.com" className="button special">
-              Contact Me
-            </a>
-          </li>
-          <li>
-            Jason Sooter
-            <br />
-            The Organic Bloom
-            <br />
-            918.770.3878
-            <br />
-            jason.sooter@gmail.com
-          </li>
-        </ul>
+        <ContactForm />
       </div>
     </section>
   );
