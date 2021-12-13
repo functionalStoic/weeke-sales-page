@@ -1,5 +1,5 @@
 import React from 'react';
-import makorHero from '../assets/images/makor_q_one_hero.jpg';
+import hero from '../assets/images/weeke_cnc_hero.jpg';
 
 export default function Section1() {
   return (
@@ -20,7 +20,7 @@ export default function Section1() {
         </div>
         <div className="col-6">
           <span className="image fit">
-            <img src={makorHero} alt="" />
+            <img src={hero} alt="" />
           </span>
         </div>
       </div>
