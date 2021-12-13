@@ -7,17 +7,27 @@ class Footer extends React.Component {
         <ul className="icons">
           <li>
             <a
-              href="https://www.twitter.com/functionalStoic"
-              className="icon alt fa-twitter"
+              href="https://www.youtube.com/channel/UCxusLlp2Rh1zvPfbYiHrShQ"
+              className="icon alt fa-youtube"
               target="_blank"
               rel="noreferrer"
             >
-              <span className="label">Twitter</span>
+              <span className="label">Youtube</span>
             </a>
           </li>
           <li>
             <a
-              href="https://www.instagram.com/jasonsooter"
+              href="https://www.amazon.com/boundplyobox"
+              className="icon alt fa-amazon"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span className="label">Amazon</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/boundplyobox"
               className="icon alt fa-instagram"
               target="_blank"
               rel="noreferrer"
@@ -27,17 +37,7 @@ class Footer extends React.Component {
           </li>
           <li>
             <a
-              href="https://www.github.com/functionalStoic"
-              className="icon alt fa-github"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <span className="label">GitHub</span>
-            </a>
-          </li>
-          <li>
-            <a
-              href="mailto:jason.sooter@gmail.com"
+              href="mailto:hello@weekecnc.us"
               className="icon alt fa-envelope"
               target="_blank"
               rel="noreferrer"
@@ -47,10 +47,7 @@ class Footer extends React.Component {
           </li>
         </ul>
         <ul className="copyright">
-          <li>&copy; The Organic Bloom</li>
-          <li>
-            Design: <a href="http://www.jasonsooter.com">Jason Sooter</a>
-          </li>
+          <li>&copy; WeekeCNC.us</li>
         </ul>
       </section>
     );
