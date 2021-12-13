@@ -23,7 +23,12 @@
   )
 );
 
-@include skel-layout((reset: 'full', boxModel: 'border'));
+@include skel-layout(
+  (
+    reset: 'full',
+    boxModel: 'border'
+  )
+);
 
 /* Basic */
 
@@ -649,6 +654,7 @@ ul {
       display: inline-block;
       padding: 0 (_size(element-margin) * 0.5) 0 0;
       vertical-align: middle;
+      margin-bottom: 10px;
 
       &:last-child {
         padding-right: 0;
@@ -992,7 +998,7 @@ button,
 /* Header */
 
 #header {
-  @include padding(9em, 0, (0, 0, _size(element-margin), 0));
+  @include padding(3em, 0, (0, 0, _size(element-margin), 0));
   @include dark(#4686a0);
   background-attachment: fixed, fixed, fixed;
   background-image: url('../images/overlay2.png'), url('../images/overlay3.svg'),
@@ -1019,16 +1025,6 @@ button,
   .actions {
     margin: (_size(element-margin) * 1.25) 0 0 0;
     position: relative;
-
-    &:after {
-      background: _palette(dark, border);
-      content: '';
-      height: 100vh;
-      left: 50%;
-      position: absolute;
-      top: 100%;
-      width: 1px;
-    }
   }
 
   .inner {
@@ -1038,6 +1034,9 @@ button,
     opacity: 1;
     position: relative;
     z-index: 1;
+    ul {
+      list-style: none;
+    }
 
     .actions {
       @include vendor('transition', 'transform 1.25s ease');
@@ -1374,7 +1373,7 @@ button,
         > * {
           margin: 0 !important;
           width: 100%;
-
+          margin-bottom: 10px;
           &.icon {
             &:before {
               margin-left: -2em;
