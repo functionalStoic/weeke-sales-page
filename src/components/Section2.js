@@ -1,5 +1,5 @@
 import React from 'react';
-import pic01 from '../assets/images/machinePictures/makor_q_one_1.jpg';
+import pic01 from '../assets/images/machinePictures/Weeke_Vantech_510_1.jpg';
 
 export default function SectionTwo() {
   return (
