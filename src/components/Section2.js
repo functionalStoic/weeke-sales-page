@@ -15,13 +15,19 @@ export default function SectionTwo() {
             <h2>$50,000+ Savings vs. New Machine</h2>
           </header>
           <p>
-            The purchase of a new reciprocating spray machine is not as
-            straight-forward as it should be. Additional expenses will include
-            duct work for ventilation(included), a minimum of 4 automatic
-            sprayers from Kremlin, etc (included), various electrical
-            necessities(480v transformer included along with breakers and
-            wiring). You will need to find a source for paper rolls (we've
-            included a pallet of 4)
+            <p>
+              The purchase of a new CNC Router is not as straight-forward as it should be. Additional expenses will include:
+            </p>
+            <ul>
+              <li>Dust Collector for dust collection (included)</li>
+              <li>Duct work for dust collection (included)</li>
+              <li>Electrical Work & possibly a transformer (included)</li>
+              <li>CAD Software (AlphaCam included)</li>
+              <li>Tooling holders & router bits (included)</li>
+              <li>Fork Lift (included)</li>
+            </ul>
+            This CNC includes a full business ready to move and will
+            produce revenue immediately with the Amazon product (Wood Plyo Boxes) as it has since 2013
           </p>
         </div>
       </div>

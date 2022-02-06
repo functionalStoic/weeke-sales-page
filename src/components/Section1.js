@@ -11,11 +11,14 @@ export default function Section1() {
           </header>
           <p>
             Our machine was purchased from Stiles Machinery and put into service
-            in February of 2014. We have used it to spray only clear on a
-            picture frame line we offer. The finish it provides is of a superior
-            quality and is ready for high production and all day use. Due to our
-            use being only for clear. It is very clean and shows very minimal
-            use compared to common used spray machines
+            in August 2013. Since then, it has primarily been used to cut 2 premium
+            grades of material:
+            <ul>
+              <li>Trupan MDF (Picture Frames)</li>
+              <li>Radiate Pine Plywood (Wood Plyo Boxes)</li>
+            </ul>
+            This high grade material means the machine has been used in such a way
+            to keep it in excellent condition.
           </p>
         </div>
         <div className="col-6">
