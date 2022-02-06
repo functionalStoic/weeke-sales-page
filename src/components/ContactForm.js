@@ -1,6 +1,6 @@
+import { navigate } from 'gatsby-link';
 import React from 'react';
 
-import { navigate } from 'gatsby-link'
 
 
 function encode(data) {
