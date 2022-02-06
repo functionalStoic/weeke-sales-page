@@ -5,14 +5,15 @@ export default function Header() {
     <section id="header">
       <div className="inner">
         <h1>
-          Hi, I'm <strong>Jason.</strong> I'm selling our
+          Hi, I'm <strong>Jason.</strong> I'm selling our 5x10 CNC Router.
           <br />
-          Weeke 5x10 CNC Router.
+          <h6>Model: Weeke Optimat BHP008 Vantech 510</h6>
         </h1>
         <ul>
-          <li>Weeke Optimat BHP008 Vantech 510</li>
-          <li>Clean and in excellent shape. Spindle Rebuilt in 2021</li>
-          <li><b>$50,000+</b> savings compared with buying a new one</li>
+          <li></li>
+          <li>—Clean and in excellent shape. Spindle Rebuilt in 2021—</li>
+          <li>—<b>$50,000+</b> savings compared with buying a new one—</li>
+          <li>—Includes Amazon product that sold $300k+ in 2020—</li>
         </ul>
         <iframe
           width="100%"
@@ -28,7 +29,7 @@ export default function Header() {
           <li>
             <a
               aria-label="photo-gallery"
-              href="#four"
+              href="#three"
               className="button scrolly"
               children="View Photo Gallery"
               onClick={() => window.analytics ? window.analytics.track("Button Clicked", { section: "Photo Gallery" }) : null}
@@ -37,7 +38,7 @@ export default function Header() {
           <li>
             <a
               aria-label="technical-specs"
-              href="#five"
+              href="#four"
               className="button scrolly"
               children="View Technical Specs"
               onClick={() => window.analytics ? window.analytics.track("Button Clicked", { section: "Technical Specs" }) : null}
@@ -46,7 +47,7 @@ export default function Header() {
           <li>
             <a
               aria-label="key-features"
-              href="#six"
+              href="#five"
               className="button scrolly"
               children="Key Features"
               onClick={() => window.analytics ? window.analytics.track("Button Clicked", { section: "Key Features" }) : null}
