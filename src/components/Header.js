@@ -3,14 +3,13 @@ import React from 'react';
 export default function Header() {
   return (
     <section id="header">
-      <div className="inner">
+      <div className="inner" style={{ marginTop: '-40px' }}>
         <h1>
           Hi, I'm <strong>Jason.</strong> I'm selling our 5x10 CNC Router.
           <br />
         </h1>
-        <h6>Model: Weeke Optimat BHP008 Vantech 510</h6>
         <ul>
-          <li></li>
+          <li>—Model: Weeke Optimat BHP008 Vantech 510—</li>
           <li>—Clean and in excellent shape. Spindle Rebuilt in 2021—</li>
           <li>—<b>$50,000+</b> savings compared with buying a new one—</li>
           <li>—Includes Amazon product that sold $300k+ in 2020—</li>

@@ -21,9 +21,7 @@ export default function ContactForm() {
   const handleSubmit = (e) => {
     e.preventDefault()
     window?.analytics?.identify({
-      email: state.email,
-      name: state.name,
-      phone: state.phone
+      ...state
     })
     const form = e.target
     fetch('/', {

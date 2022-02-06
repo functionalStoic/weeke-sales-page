@@ -10,7 +10,7 @@ export default function SectionFour() {
           </header>
         </div>
 
-        <div className="col-6">
+        <div className="col-4">
           <h4>
             General Info
           </h4>
@@ -24,7 +24,7 @@ export default function SectionFour() {
             <li>Loading Fee: Rigging Required</li>
           </ul>
         </div>
-        <div className="col-6">
+        <div className="col-4">
           <h4>
             Specifications:
           </h4>
@@ -42,7 +42,7 @@ export default function SectionFour() {
             <li>Total Connected Load: 27.5 kW</li>
           </ul>
         </div>
-        <div className="col-6">
+        <div className="col-4">
           <h4>
             Equipped With:
           </h4>
