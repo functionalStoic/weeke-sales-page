@@ -20,6 +20,11 @@ export default function ContactForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault()
+    window?.analytics?.identify({
+      email: state.email,
+      name: state.name,
+      phone: state.phone
+    })
     const form = e.target
     fetch('/', {
       method: 'POST',
@@ -29,7 +34,13 @@ export default function ContactForm() {
         ...state,
       }),
     })
-      .then(() => navigate(form.getAttribute('action')))
+      .then(() => {
+        window?.analytics?.track("Form Submitted", {
+          formName: 'Contact Form',
+          ...state
+        })
+        navigate(form.getAttribute('action'))
+      })
       .catch((error) => alert(error))
   }
 

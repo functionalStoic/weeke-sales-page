@@ -13,10 +13,12 @@ export default function Section1() {
             Our machine was purchased from Stiles Machinery and put into service
             in August 2013. Since then, it has primarily been used to cut 2 premium
             grades of material:
-            <ul>
-              <li>Trupan MDF (Picture Frames)</li>
-              <li>Radiate Pine Plywood (Wood Plyo Boxes)</li>
-            </ul>
+          </p>
+          <ul>
+            <li>Trupan MDF (Picture Frames)</li>
+            <li>Radiate Pine Plywood (Wood Plyo Boxes)</li>
+          </ul>
+          <p>
             This high grade material means the machine has been used in such a way
             to keep it in excellent condition.
           </p>

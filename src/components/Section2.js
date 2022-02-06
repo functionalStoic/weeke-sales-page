@@ -15,17 +15,17 @@ export default function SectionTwo() {
             <h2>$50,000+ Savings vs. New Machine</h2>
           </header>
           <p>
-            <p>
-              The purchase of a new CNC Router is not as straight-forward as it should be. Additional expenses will include:
-            </p>
-            <ul>
-              <li>Dust Collector for dust collection (included)</li>
-              <li>Duct work for dust collection (included)</li>
-              <li>Electrical Work & possibly a transformer (included)</li>
-              <li>CAD Software (AlphaCam included $10k value)</li>
-              <li>Tooling holders & router bits (included)</li>
-              <li>Fork Lift (included)</li>
-            </ul>
+            The purchase of a new CNC Router is not as straight-forward as it should be. Additional expenses will include:
+          </p>
+          <ul>
+            <li>Dust Collector for dust collection (included)</li>
+            <li>Duct work for dust collection (included)</li>
+            <li>Electrical Work & possibly a transformer (included)</li>
+            <li>CAD Software (AlphaCam included $10k value)</li>
+            <li>Tooling holders & router bits (included)</li>
+            <li>Fork Lift (included)</li>
+          </ul>
+          <p>
             This CNC includes a full business ready to move and will
             produce revenue immediately with the Amazon product (Wood Plyo Boxes) as it has since 2013
           </p>

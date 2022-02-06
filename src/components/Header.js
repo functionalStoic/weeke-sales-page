@@ -7,8 +7,8 @@ export default function Header() {
         <h1>
           Hi, I'm <strong>Jason.</strong> I'm selling our 5x10 CNC Router.
           <br />
-          <h6>Model: Weeke Optimat BHP008 Vantech 510</h6>
         </h1>
+        <h6>Model: Weeke Optimat BHP008 Vantech 510</h6>
         <ul>
           <li></li>
           <li>—Clean and in excellent shape. Spindle Rebuilt in 2021—</li>
@@ -32,7 +32,7 @@ export default function Header() {
               href="#three"
               className="button scrolly"
               children="View Photo Gallery"
-              onClick={() => window.analytics ? window.analytics.track("Button Clicked", { section: "Photo Gallery" }) : null}
+              onClick={() => window?.analytics?.track("Button Clicked", { section: "Photo Gallery" })}
             />
           </li>
           <li>
@@ -41,7 +41,7 @@ export default function Header() {
               href="#four"
               className="button scrolly"
               children="View Technical Specs"
-              onClick={() => window.analytics ? window.analytics.track("Button Clicked", { section: "Technical Specs" }) : null}
+              onClick={() => window?.analytics?.track("Button Clicked", { section: "Technical Specs" })}
             />
           </li>
           <li>
@@ -50,7 +50,7 @@ export default function Header() {
               href="#five"
               className="button scrolly"
               children="Key Features"
-              onClick={() => window.analytics ? window.analytics.track("Button Clicked", { section: "Key Features" }) : null}
+              onClick={() => window?.analytics?.track("Button Clicked", { section: "Key Features" })}
             />
           </li>
           <li>
@@ -59,7 +59,7 @@ export default function Header() {
               href="#six"
               className="button scrolly"
               children="Contact"
-              onClick={() => window.analytics ? window.analytics.track("Button Clicked", { section: "Contact" }) : null}
+              onClick={() => window?.analytics?.track("Button Clicked", { section: "Contact" })}
             />
           </li>
         </ul>
