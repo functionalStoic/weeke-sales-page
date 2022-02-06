@@ -29,7 +29,7 @@ export default function Section6() {
             )
           </h3>
         </header>
-        <p>I'm glad to help arrange and package for shipping and pickup in Tulsa, Oklahoma</p>
+        <p>Machine can be demoed upon request. I'm glad to help arrange and package for shipping and pickup in Tulsa, Oklahoma</p>
         <h2>Ready to take the next step? If so, reach out below</h2>
         <ContactForm />
       </div>

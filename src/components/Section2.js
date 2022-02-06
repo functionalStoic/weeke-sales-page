@@ -22,7 +22,7 @@ export default function SectionTwo() {
               <li>Dust Collector for dust collection (included)</li>
               <li>Duct work for dust collection (included)</li>
               <li>Electrical Work & possibly a transformer (included)</li>
-              <li>CAD Software (AlphaCam included)</li>
+              <li>CAD Software (AlphaCam included $10k value)</li>
               <li>Tooling holders & router bits (included)</li>
               <li>Fork Lift (included)</li>
             </ul>
