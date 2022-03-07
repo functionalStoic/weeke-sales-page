@@ -66,10 +66,10 @@ export default function ContactForm() {
           Message: <textarea name="message" onChange={handleChange} />
         </Field>
         <Field>
-          <button type="submit">Contact Me</button>
+          <button disabled={state.name === '' || state.email === '' || state.phone === '' || state.message === ''} type="submit">Contact Me</button>
         </Field>
       </form>
-    </div>
+    </div >
   );
 }
 
