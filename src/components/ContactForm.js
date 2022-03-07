@@ -10,7 +10,12 @@ function encode(data) {
 }
 
 export default function ContactForm() {
-  const [state, setState] = React.useState({})
+  const [state, setState] = React.useState({
+    name: '',
+    email: '',
+    message: '',
+    phone: ''
+  })
 
   const handleChange = (e) => {
     console.log('e', e)
@@ -66,7 +71,12 @@ export default function ContactForm() {
           Message: <textarea name="message" onChange={handleChange} />
         </Field>
         <Field>
-          <button disabled={state.name === '' || state.email === '' || state.phone === '' || state.message === ''} type="submit">Contact Me</button>
+          <button
+            disabled={state.name === '' || state.email === '' || state.phone === '' || state.message === ''}
+            type="submit"
+          >
+            Contact Me
+          </button>
         </Field>
       </form>
     </div >
